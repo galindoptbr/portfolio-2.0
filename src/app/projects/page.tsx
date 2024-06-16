@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 import React from "react";
 
 import post1 from "@/assets/images/carwash.jpg";
