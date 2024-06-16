@@ -51,10 +51,12 @@ export const MainPage = () => {
           </p>
           <p className="flex gap-2 items-center">
             Zucagram Founder{" "}
-            <IoIosLink
-              size={22}
-              className="text-zinc-400 hover:text-purple-500 cursor-pointer"
-            />
+            <Link href="https://www.zucagram.com/pages" target="_blank">
+              <IoIosLink
+                size={22}
+                className="text-zinc-400 hover:text-purple-500 cursor-pointer"
+              />
+            </Link>
           </p>
         </div>
         <div className="flex">
