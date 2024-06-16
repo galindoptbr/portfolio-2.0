@@ -22,12 +22,12 @@ export const MainPage = () => {
           <Image src={banner} alt="banner gif" />
           <div>
             <Image
-              className="w-40 absolute top-20 left-10 md:top-56 md:left-20"
+              className="w-40 absolute top-10 left-10 md:top-56 md:left-20"
               src={perfilImg}
               alt="perfil image"
             />
           </div>
-          <div className="absolute right-20">
+          <div className="absolute right-10 md:right-20">
             <Link
               href="https://www.linkedin.com/in/galindoptbr/"
               target="_blank"
@@ -39,7 +39,7 @@ export const MainPage = () => {
             </Link>
           </div>
         </div>
-        <div className="flex justify-center items-center gap-2 mt-24 mr-[120px] md:mr-[345px]">
+        <div className="flex justify-center items-center gap-2 mt-24 mr-[50px] md:mr-[345px]">
           <p className=" text-4xl font-extrabold">Galindo Leite</p>
           <Image className="w-8 h-8 mb-2" src={badge} alt="badge" />
         </div>

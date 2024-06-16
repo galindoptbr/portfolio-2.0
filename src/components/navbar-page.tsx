@@ -10,7 +10,7 @@ export const NavbarPage = () => {
   return (
     <>
       <div className="flex justify-center m-auto max-w-[769px] pt-14">
-        <ul className="flex gap-16 md:gap-28 font-bold">
+        <ul className="flex gap-12 md:gap-28 font-bold">
           <li>
             <Link
               href="/"
