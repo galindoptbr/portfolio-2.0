@@ -39,7 +39,7 @@ export const MainPage = () => {
             </Link>
           </div>
         </div>
-        <div className="flex justify-center items-center gap-2 mt-24 mr-[50px] md:mr-[345px]">
+        <div className="flex justify-center items-center gap-2 mt-24 mr-[60px] md:mr-[345px]">
           <p className=" text-4xl font-extrabold">Galindo Leite</p>
           <Image className="w-8 h-8 mb-2" src={badge} alt="badge" />
         </div>
