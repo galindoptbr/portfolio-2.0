@@ -47,7 +47,7 @@ export const MainPage = () => {
           <p className="mt-2">Rewriting my life through code ✨</p>
           <p>
             Frontend Developer | HTML | CSS | JavaScript | Typescript | React |
-            NextJS | Taiwindcss
+            NextJS | Tailwindcss
           </p>
           <p className="flex gap-2 items-center">
             Zucagram Founder{" "}
