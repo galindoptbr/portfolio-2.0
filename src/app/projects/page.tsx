@@ -61,20 +61,16 @@ const Projects = () => {
       <div className="m-auto mt-10 rounded-md max-w-[600px] p-4">
         <div className="mt-5">
           <p className="text-2xl font-bold">Olavo Scale Wheels (freelance)</p>
-          <div className="p-1 w-[550px]">
             <ReadMore
               text={`I was hired by a client who sells 3D wheels for cars HotWheels, with the aim of creating a website to showcase your products and reach a wider audience across Europe.\n 
                 The project was developed using NextJS with TypeScript and Tailwind CSS to ensure agility and responsiveness\n
  In addition to developing the website, I also created banners using Canva Pro to show real product images.\n
  I chose to host the project at Vercel, taking advantage of its integration with GitHub to facilitate the automated deployment process.\n
 To ensure the client's online presence, I registered their domain on Hostinger and configured the DNS to point to Vercel, ensuring for the domain to redirect to the hosted project.\n
-This project represented a rewarding challenge for me, being the
-first time someone trusted their investment for me to create something for him.\n
+This project represented a rewarding challenge for me, being the first time someone trusted their investment for me to create something for him.\n
 I completed all the work in just 7 days, dedicating my nights after working hours at the factory.\n
 Note: Products and some content will still be added as soon as the customer makes them available.`}
             />
-          </div>
-
           <Image className="mt-4 rounded" src={post2} alt="image post" />
         </div>
         <div className="flex items-center mt-4 gap-4">

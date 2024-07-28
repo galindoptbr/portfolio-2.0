@@ -126,18 +126,10 @@ export default function Home() {
         <div className="mt-5">
           <p className="text-2xl font-bold">Car Wash Project 💦🚗</p>
           <ReadMore
-            text={`I've participated in a few interviews and I'm always eliminated from
-            the list. process due to lack of experience. So I asked myself: how
-            am I going to gain experience if they don't give me a chance?\n
-            From this reflection, I started thinking about how programming I
-            could solve problems in my daily life. Currently, I work in a car
-            wash on Saturdays to supplement my income. There, we fill out a form
-            by hand and, at the end of the day, we do the math to close the box.
-            This gave me the idea to create an app for register the cars we wash
-            and generate a report with one click at the end of the day.\n
-            I developed this project in React with NextJS and Tailwind
-            CSS, and the I hosted it on Vercel to access it on my smartphone as
-            an app through webmanifest.`}
+            text={`I've participated in a few interviews and I'm always eliminated from the list. process due to lack of experience. So I asked myself: how am I going to gain experience if they don't give me a chance?\n
+            From this reflection, I started thinking about how programming I could solve problems in my daily life. Currently, I work in a car wash on Saturdays to supplement my income. There, we fill out a form by hand and, at the end of the day, we do the math to close the box.
+            This gave me the idea to create an app for register the cars we wash and generate a report with one click at the end of the day.\n
+            I developed this project in React with NextJS and Tailwind CSS, and the I hosted it on Vercel to access it on my smartphone as an app through webmanifest.`}
           />
           <Image className="mt-4 rounded" src={post1} alt="image post" />
         </div>
@@ -171,26 +163,14 @@ export default function Home() {
         <div className="mt-5">
           <p className="text-2xl font-bold">Olavo Scale Wheels (Freelancer)</p>
           <ReadMore
-            text={`I was hired by a client who sells 3D wheels for cars HotWheels, with
-            the aim of creating a website to showcase your products and reach a
-            wider audience across Europe.\n
-            The project was developed using NextJS with TypeScript and Tailwind
-            CSS to ensure agility and responsiveness.\n
-            In addition to developing the website, I also created banners using
-            Canva Pro to show real product images.\n
-            I chose to host
-            the project at Vercel, taking advantage of its integration with
-            GitHub to facilitate the automated deployment process.\n
-            To ensure the client's online presence, I registered their domain on
-            Hostinger and configured the DNS to point to Vercel, ensuring for
-            the domain to redirect to the hosted project.\n
-            This project represented a rewarding challenge for me, being the
-            first time someone trusted their investment for me to create
-            something for him.\n
-            I completed all the work in just 7 days, dedicating my nights after
-            working hours at the factory.\n
-            Note: Products and some content will still be added as soon as the
-            customer makes them available.`}
+            text={`I was hired by a client who sells 3D wheels for cars HotWheels, with the aim of creating a website to showcase your products and reach a wider audience across Europe.\n
+            The project was developed using NextJS with TypeScript and Tailwind CSS to ensure agility and responsiveness.\n
+            In addition to developing the website, I also created banners using Canva Pro to show real product images.\n
+            I chose to host the project at Vercel, taking advantage of its integration with GitHub to facilitate the automated deployment process.\n
+            To ensure the client's online presence, I registered their domain on Hostinger and configured the DNS to point to Vercel, ensuring for the domain to redirect to the hosted project.\n
+            This project represented a rewarding challenge for me, being the first time someone trusted their investment for me to create something for him.\n
+            I completed all the work in just 7 days, dedicating my nights after working hours at the factory.\n
+            Note: Products and some content will still be added as soon as the customer makes them available.`}
           />
           <Image className="mt-4 rounded" src={post2} alt="image post" />
         </div>
