@@ -128,7 +128,7 @@ Note: Products and some content will still be added as soon as the customer make
       {/* Project 4 */}
       <div className="m-auto mt-5 md:mt-10 rounded-md max-w-[600px] p-4">
         <div className="mt-5">
-          <p className="text-2xl font-bold">Resultado Mega sena 🍀</p>
+          <p className="text-2xl font-bold">Mega sena Result 🍀</p>
           <div className="p-1 w-[550px]">
             <ReadMore
               text={`This project was developed using Next.js and TailwindCSS, integrating a public API to dynamically display the latest Mega-Sena lottery results. The modern and responsive interface showcases detailed information, such as the drawn numbers, prizes distributed for each winning tier, and the accumulated amount for the next draw. It's an ideal example of leveraging public APIs and showcasing the potential of interactive and real-time updated web applications.`}
