@@ -7,7 +7,6 @@ import post2 from "@/assets/images/olavo-scale-wheels.png";
 import post3 from "@/assets/images/zucagram-app.png";
 import post4 from "@/assets/images/mega-sena.png";
 
-
 import Image from "next/image";
 import Link from "next/link";
 import { IoIosLink } from "react-icons/io";
@@ -97,14 +96,12 @@ Note: Products and some content will still be added as soon as the customer make
       <div className="m-auto mt-5 md:mt-10 rounded-md max-w-[600px] p-4">
         <div className="mt-5">
           <p className="text-2xl font-bold">Car Wash Project 💦🚗</p>
-          <div className="p-1 w-[550px]">
-            <ReadMore
-              text={`I've participated in a few interviews and I'm always eliminated from
+          <ReadMore
+            text={`I've participated in a few interviews and I'm always eliminated from
             the list. process due to lack of experience. So I asked myself: how am I going to gain experience if they don't give me a chance?\n
             From this reflection, I started thinking about how programming I could solve problems in my daily life. Currently, I work in a car wash on Saturdays to supplement my income. There, we fill out a form by hand and, at the end of the day, we do the math to close the box.
             This gave me the idea to create an app for register the cars we wash and generate a report with one click at the end of the day.\n I developed this project in React with NextJS and Tailwind CSS, and the I hosted it on Vercel to access it on my smartphone as an app through webmanifest.`}
-            />
-          </div>
+          />
           <Image className="mt-4 rounded" src={post1} alt="image post" />
         </div>
         <div className="flex items-center mt-4 gap-4">
@@ -129,11 +126,9 @@ Note: Products and some content will still be added as soon as the customer make
       <div className="m-auto mt-5 md:mt-10 rounded-md max-w-[600px] p-4">
         <div className="mt-5">
           <p className="text-2xl font-bold">Mega sena Result 🍀</p>
-          <div className="p-1 w-[550px]">
-            <ReadMore
-              text={`This project was developed using Next.js and TailwindCSS, integrating a public API to dynamically display the latest Mega-Sena lottery results. The modern and responsive interface showcases detailed information, such as the drawn numbers, prizes distributed for each winning tier, and the accumulated amount for the next draw. It's an ideal example of leveraging public APIs and showcasing the potential of interactive and real-time updated web applications.`}
-            />
-          </div>
+          <ReadMore
+            text={`This project was developed using Next.js and TailwindCSS, integrating a public API to dynamically display the latest Mega-Sena lottery results. The modern and responsive interface showcases detailed information, such as the drawn numbers, prizes distributed for each winning tier, and the accumulated amount for the next draw. It's an ideal example of leveraging public APIs and showcasing the potential of interactive and real-time updated web applications.`}
+          />
           <Image className="mt-4 rounded" src={post4} alt="image post" />
         </div>
         <div className="flex items-center mt-4 gap-4">
