@@ -14,9 +14,11 @@ import badge from "@/assets/images/badge.png";
 import post1 from "@/assets/images/carwash.jpg";
 import post2 from "@/assets/images/olavo-scale-wheels.png";
 import post3 from "@/assets/images/zucagram-app.png";
+import post4 from "@/assets/images/mega-sena.png";
+
 import Link from "next/link";
 import { ReadMore } from "@/components/readMore";
-import { FaApple, FaGooglePlay } from "react-icons/fa";
+import { FaApple, FaGithub, FaGooglePlay } from "react-icons/fa";
 
 export default function Home() {
   const [liked1, setLiked1] = useState(false);
@@ -42,6 +44,55 @@ export default function Home() {
 
   return (
     <>
+      <div className="m-auto mt-10 rounded-md max-w-[600px] p-4">
+        <div className="flex items-center gap-1 mb-2 italic text-zinc-500 ml-2">
+          <MdOutlinePushPin />
+          <p>post fixed</p>
+        </div>
+        <div className="flex gap-4 ">
+          <Image className="w-12" src={perfilImage} alt="image perfil" />
+          <div>
+            <div className="flex gap-1">
+              <p className="font-bold">Galindo Leite</p>
+              <Image className="w-5 h-5" src={badge} alt="badge" />
+            </div>
+            <p className="text-sm text-zinc-500">• 20 Nov 2024</p>
+          </div>
+        </div>
+        <div className="m-auto rounded-md max-w-[600px]">
+          <div className="mt-5">
+            <p className="text-2xl font-bold">Resultado Mega sena 🍀 </p>
+            <ReadMore
+              text={`This project was developed using Next.js and TailwindCSS, integrating a public API to dynamically display the latest Mega-Sena lottery results. The modern and responsive interface showcases detailed information, such as the drawn numbers, prizes distributed for each winning tier, and the accumulated amount for the next draw. It's an ideal example of leveraging public APIs and showcasing the potential of interactive and real-time updated web applications.`}
+            />
+
+            <Image className="mt-4 rounded" src={post4} alt="image post" />
+          </div>
+          <div className="flex items-center mt-4 gap-4">
+            <button onClick={handleLike4}>
+              <GoHeartFill
+                size={22}
+                className={liked4 ? "text-red-600" : "text-white"}
+              />
+            </button>
+            <Link href="https://loteria-seven.vercel.app/" target="_blank">
+              <IoIosLink
+                className="text-zinc-400 hover:text-purple-500 cursor-pointer"
+                size={22}
+              />
+            </Link>
+            <Link
+              href="https://github.com/galindoptbr/loteria/tree/master"
+              target="_blank"
+            >
+              <FaGithub
+                className="text-zinc-400 hover:text-purple-500 cursor-pointer"
+                size={22}
+              />
+            </Link>
+          </div>
+        </div>
+      </div>
       {/* Post 1 */}
       <div className="m-auto mt-10 rounded-md max-w-[600px] p-4">
         <div className="flex items-center gap-1 mb-2 italic text-zinc-500 ml-2">
