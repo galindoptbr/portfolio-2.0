@@ -6,6 +6,8 @@ import post1 from "@/assets/images/carwash.jpg";
 import post2 from "@/assets/images/olavo-scale-wheels.png";
 import post3 from "@/assets/images/zucagram-app.png";
 import post4 from "@/assets/images/mega-sena.png";
+import post5 from "@/assets/images/seu-stand.png";
+
 
 import Image from "next/image";
 import Link from "next/link";
@@ -139,7 +141,57 @@ Note: Products and some content will still be added as soon as the customer make
             />
           </Link>
           <Link
-            href="https://github.com/galindoptbr/loteria/tree/master"
+            href="https://github.com/galindoptbr/loteria"
+            target="_blank"
+          >
+            <FaGithub
+              className="text-zinc-400 hover:text-purple-500 cursor-pointer"
+              size={22}
+            />
+          </Link>
+        </div>
+      </div>
+      {/* Project 5 */}
+      <div className="m-auto mt-5 md:mt-10 rounded-md max-w-[600px] p-4">
+        <div className="mt-5">
+          <p className="text-2xl font-bold">Stand Car Web Site</p>
+          <ReadMore
+            text={`I’m thrilled to share this project I developed to meet the needs of vehicle sellers who want to expand their online presence and efficiently manage their inventory.  
+
+🛠️ **Technologies Used:**  
+• **Next.js** for fast and modern web development.  
+• **TypeScript** for safer and scalable code.  
+• **TailwindCSS** for responsive and efficient styling.  
+• **Firebase** for authentication and data storage.  
+
+🌟 **Key Features:**  
+• A complete admin panel for adding, editing, and deleting vehicles.  
+• Search filter by brands, enhancing user experience.  
+• Visual customization with company logos and colors.  
+• Fully responsive design, working seamlessly on mobile devices, tablets, and desktops.  
+• Integration with domain and hosting services, offering a comprehensive solution.  
+
+💡 **Project Highlights:**  
+This website was designed to be accessible, scalable, and user-friendly, with competitive pricing that includes domain and low maintenance costs. It’s tailored for small and medium businesses, showcasing my ability to deliver practical, high-impact solutions.  
+
+📈 **What I Learned From This Experience:**  
+• Improved organization of code and structuring complex projects.  
+• Effective integration between front-end and back-end with a focus on user experience.  
+• Collaboration with real business requirements to develop an efficient solution.  
+
+I’m always looking for new challenges and opportunities to create, learn, and grow in the web development field. If you’re seeking a developer focused on delivering functional and high-value solutions, feel free to reach out!  `}
+          />
+          <Image className="mt-4 rounded" src={post5} alt="image post" />
+        </div>
+        <div className="flex items-center mt-4 gap-4">
+          <Link href="https://seu-stand-eight.vercel.app/" target="_blank">
+            <IoIosLink
+              className="text-zinc-400 hover:text-purple-500 cursor-pointer"
+              size={22}
+            />
+          </Link>
+          <Link
+            href="https://github.com/galindoptbr/standBerg"
             target="_blank"
           >
             <FaGithub

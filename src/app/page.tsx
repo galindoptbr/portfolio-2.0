@@ -15,6 +15,7 @@ import post1 from "@/assets/images/carwash.jpg";
 import post2 from "@/assets/images/olavo-scale-wheels.png";
 import post3 from "@/assets/images/zucagram-app.png";
 import post4 from "@/assets/images/mega-sena.png";
+import post5 from "@/assets/images/seu-stand.png";
 
 import Link from "next/link";
 import { ReadMore } from "@/components/readMore";
@@ -25,6 +26,7 @@ export default function Home() {
   const [liked2, setLiked2] = useState(false);
   const [liked3, setLiked3] = useState(false);
   const [liked4, setLiked4] = useState(false);
+  const [liked5, setLiked5] = useState(false);
 
   const handleLike1 = () => {
     setLiked1(!liked1);
@@ -42,10 +44,84 @@ export default function Home() {
     setLiked4(!liked4);
   };
 
+  const handleLike5 = () => {
+    setLiked5(!liked5);
+  };
+
   return (
     <>
       <div className="m-auto mt-10 rounded-md max-w-[600px] p-4">
         <div className="flex items-center gap-1 mb-2 italic text-zinc-500 ml-2">
+          <MdOutlinePushPin />
+          <p>post fixed</p>
+        </div>
+        <div className="flex gap-4 ">
+          <Image className="w-12" src={perfilImage} alt="image perfil" />
+          <div>
+            <div className="flex gap-1">
+              <p className="font-bold">Galindo Leite</p>
+              <Image className="w-5 h-5" src={badge} alt="badge" />
+            </div>
+            <p className="text-sm text-zinc-500">• 20 Nov 2024</p>
+          </div>
+        </div>
+        <div className="m-auto rounded-md max-w-[600px]">
+          <div className="mt-5">
+            <p className="text-2xl font-bold">Stand Car Web Site </p>
+            <ReadMore
+              text={`I’m thrilled to share this project I developed to meet the needs of vehicle sellers who want to expand their online presence and efficiently manage their inventory.  
+
+🛠️ **Technologies Used:**  
+• **Next.js** for fast and modern web development.  
+• **TypeScript** for safer and scalable code.  
+• **TailwindCSS** for responsive and efficient styling.  
+• **Firebase** for authentication and data storage.  
+
+🌟 **Key Features:**  
+• A complete admin panel for adding, editing, and deleting vehicles.  
+• Search filter by brands, enhancing user experience.  
+• Visual customization with company logos and colors.  
+• Fully responsive design, working seamlessly on mobile devices, tablets, and desktops.  
+• Integration with domain and hosting services, offering a comprehensive solution.  
+
+💡 **Project Highlights:**  
+This website was designed to be accessible, scalable, and user-friendly, with competitive pricing that includes domain and low maintenance costs. It’s tailored for small and medium businesses, showcasing my ability to deliver practical, high-impact solutions.  
+
+📈 **What I Learned From This Experience:**  
+• Improved organization of code and structuring complex projects.  
+• Effective integration between front-end and back-end with a focus on user experience.  
+• Collaboration with real business requirements to develop an efficient solution.  
+
+I’m always looking for new challenges and opportunities to create, learn, and grow in the web development field. If you’re seeking a developer focused on delivering functional and high-value solutions, feel free to reach out!  `}
+            />
+
+            <Image className="mt-4 rounded" src={post5} alt="image post" />
+          </div>
+          <div className="flex items-center mt-4 gap-4">
+            <button onClick={handleLike5}>
+              <GoHeartFill
+                size={22}
+                className={liked5 ? "text-red-600" : "text-white"}
+              />
+            </button>
+            <Link href="https://seu-stand-eight.vercel.app/" target="_blank">
+              <IoIosLink
+                className="text-zinc-400 hover:text-purple-500 cursor-pointer"
+                size={22}
+              />
+            </Link>
+            <Link
+              href="https://github.com/galindoptbr/standBerg"
+              target="_blank"
+            >
+              <FaGithub
+                className="text-zinc-400 hover:text-purple-500 cursor-pointer"
+                size={22}
+              />
+            </Link>
+          </div>
+        </div>
+        <div className="flex items-center mt-10 gap-1 mb-2 italic text-zinc-500 ml-2">
           <MdOutlinePushPin />
           <p>post fixed</p>
         </div>
@@ -81,10 +157,7 @@ export default function Home() {
                 size={22}
               />
             </Link>
-            <Link
-              href="https://github.com/galindoptbr/loteria/tree/master"
-              target="_blank"
-            >
+            <Link href="https://github.com/galindoptbr/loteria" target="_blank">
               <FaGithub
                 className="text-zinc-400 hover:text-purple-500 cursor-pointer"
                 size={22}
