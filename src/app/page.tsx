@@ -62,7 +62,7 @@ export default function Home() {
               <p className="font-bold">Galindo Leite</p>
               <Image className="w-5 h-5" src={badge} alt="badge" />
             </div>
-            <p className="text-sm text-zinc-500">• 20 Nov 2024</p>
+            <p className="text-sm text-zinc-500">• 14 Jan 2025</p>
           </div>
         </div>
         <div className="m-auto rounded-md max-w-[600px]">
