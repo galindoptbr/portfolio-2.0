@@ -39,9 +39,15 @@ export const MainPage = () => {
             </Link>
           </div>
         </div>
-        <div className="flex justify-center items-center gap-2 mt-24 mr-[160px] lg:mr-[365px]">
-          <p className=" text-4xl font-extrabold">Galindo Leite</p>
-          <Image className="w-8 h-8 mb-2" src={badge} alt="badge" />
+        <div className="flex justify-start items-center gap-2 mt-24 m-auto max-w-[769px] px-5 md:pl-16">
+          <p className="text-3xl md:text-4xl font-extrabold text-center">
+            Galindo Leite
+          </p>
+          <Image
+            className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 mb-1 md:mb-2"
+            src={badge}
+            alt="badge"
+          />
         </div>
         <div className="flex flex-col m-auto justify-center gap-1 max-w-[769px] px-5 md:pl-16">
           <p className="mt-2">Rewriting my life through code ✨</p>
