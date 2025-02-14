@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 
 import banner from "@/assets/images/banner-gif.gif";
-import perfilImg from "@/assets/images/perfil-img.png";
+import perfilImg from "@/assets/images/perfil-image.png";
 import badge from "@/assets/images/badge.png";
 
 import {
@@ -39,15 +39,15 @@ export const MainPage = () => {
             </Link>
           </div>
         </div>
-        <div className="flex justify-center items-center gap-2 mt-24 mr-[60px] md:mr-[345px]">
+        <div className="flex justify-center items-center gap-2 mt-24 mr-[160px] lg:mr-[365px]">
           <p className=" text-4xl font-extrabold">Galindo Leite</p>
           <Image className="w-8 h-8 mb-2" src={badge} alt="badge" />
         </div>
         <div className="flex flex-col m-auto justify-center gap-1 max-w-[769px] px-5 md:pl-16">
           <p className="mt-2">Rewriting my life through code ✨</p>
           <p>
-            Frontend Developer | HTML | CSS | JavaScript | Typescript | React |
-            NextJS | Tailwindcss
+            Frontend Developer | HTML | CSS | TypeScript | React | NextJS |
+            Tailwindcss
           </p>
           <p className="flex gap-2 items-center">
             Zucagram Founder{" "}
@@ -78,14 +78,14 @@ export const MainPage = () => {
               <FaRegFilePdf className="mb-1" />
               <Link
                 className="hover:text-purple-500 cursor-pointer"
-                href="/CV-Galindo-2024.pdf"
+                href="/CV-2025.pdf"
                 target="_blank"
               >
                 Download CV
               </Link>
             </li>
             <li className="flex gap-2 items-center">
-              <FaRegCalendarAlt className="mb-1" />2 years of experience
+              <FaRegCalendarAlt className="mb-1" />3 years of experience
             </li>
           </ul>
         </div>

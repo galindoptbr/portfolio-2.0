@@ -12,13 +12,52 @@ const Links = () => {
           <div>
             <Link
               className="italic text-purple-500 hover:border-b-2 hover:border-purple-500"
-              href="https://www.olavoscalewheels.com/"
+              href="https://www.zucagram.com/pages"
               target="_blank"
             >
-              Olavo Scale Wheels
+              Zucagram Social Media
             </Link>
-            <p className="text-zinc-500 text-md italic">My last freelancer as a web developer</p>
+            <p className="text-zinc-500 text-md italic">
+              A Social Network for Brazilian immigrants
+            </p>
           </div>
+          <div>
+            <Link
+              className="italic text-purple-500 hover:border-b-2 hover:border-purple-500"
+              href="https://seu-stand-eight.vercel.app/"
+              target="_blank"
+            >
+              Stand Car Web Site
+            </Link>
+            <p className="text-zinc-500 text-md italic">
+              A project for car salesmen
+            </p>
+          </div>
+          <div>
+            <Link
+              className="italic text-purple-500 hover:border-b-2 hover:border-purple-500"
+              href="https://github.com/galindoptbr/siteparastand.pt"
+              target="_blank"
+            >
+              siteparastand.pt
+            </Link>
+            <p className="text-zinc-500 text-md italic">
+              Provide professional websites for car dealerships
+            </p>
+          </div>
+          <div>
+            <Link
+              className="italic text-purple-500 hover:border-b-2 hover:border-purple-500"
+              href="https://github.com/galindoptbr/loteria"
+              target="_blank"
+            >
+              Mega sena Result 🍀
+            </Link>
+            <p className="text-zinc-500 text-md italic">
+              See the latest Mega-Sena lottery results
+            </p>
+          </div>
+
           <div>
             <Link
               className="italic text-purple-500 hover:border-b-2 hover:border-purple-500"
@@ -27,22 +66,15 @@ const Links = () => {
             >
               Car Wash Project
             </Link>
-            <p className="text-zinc-500 text-md italic">My personal project for a car wash</p>
+            <p className="text-zinc-500 text-md italic">
+              My personal project for a car wash
+            </p>
           </div>
+
           <div>
             <Link
               className="italic text-purple-500 hover:border-b-2 hover:border-purple-500"
-              href="https://www.zucagram.com/pages"
-              target="_blank"
-            >
-              Zucagram Social Media
-            </Link>
-            <p className="text-zinc-500 text-md italic">A Social Network for Brazilian immigrants</p>
-          </div>
-          <div>
-            <Link
-              className="italic text-purple-500 hover:border-b-2 hover:border-purple-500"
-              href="/CV-Galindo-2024.pdf"
+              href="/CV-2025.pdf"
               target="_blank"
             >
               Resume

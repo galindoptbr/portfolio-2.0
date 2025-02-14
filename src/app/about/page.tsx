@@ -1,6 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
 
-
 import Image from "next/image";
 import React from "react";
 
@@ -14,7 +13,7 @@ const AboutPage = () => {
         <div className="mt-5">
           <p className="text-2xl font-bold">Hello 👋🏽</p>
           <p>
-            Greetings! I'm an avid frontend programmer with 2 years of dedicated
+            Greetings! I'm an avid frontend programmer with 3 years of dedicated
             experience in studying and working on projects in this realm. My
             skill set includes HTML, CSS, JavaScript, ReactJS, NextJS and
             Taiwindcss, allowing me to craft interactive and responsive
@@ -43,9 +42,10 @@ const AboutPage = () => {
 
           <Image className="mt-4 rounded" src={distinction} alt="image post" />
 
-          <p className="mt-5">I'm very happy to have you here, if you want to know more about me, send me a message on any of the social networks below 👇🏼 </p>
-
-          
+          <p className="mt-5">
+            I'm very happy to have you here, if you want to know more about me,
+            send me a message on any of the social networks below 👇🏼{" "}
+          </p>
         </div>
       </div>
     </>

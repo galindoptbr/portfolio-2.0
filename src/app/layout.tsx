@@ -3,6 +3,7 @@ import "./globals.css";
 import { MainPage } from "@/components/main-page";
 import { NavbarPage } from "@/components/navbar-page";
 import { Footer } from "@/components/footer";
+import ScrollToTop from "@/components/ScrollToTop";
 
 export const metadata: Metadata = {
   title: "Feed-galindoptbr.dev",
@@ -21,6 +22,7 @@ export default function RootLayout({
         <NavbarPage />
         {children}
         <Footer />
+        <ScrollToTop />
       </body>
     </html>
   );
